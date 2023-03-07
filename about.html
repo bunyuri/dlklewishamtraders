@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dlk-lewisham-traders</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logonobg.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Best Clearing & Forwarding Agency</h1>
+                <p>At DLK-lewisham-traders, we touch every aspect of our company working model to 
+                    our company culture, we see our business as a vehicle to make a great impact.
+                 </p>
+                 <a href="contact.html" class="hero-btn red-btn">Contact Us</a>
+            </div>
+            <div class="about-col"> 
+                <div class="slider">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>Follow Us</h4>
+        <p>Follow us to obtain updates and news about our agency.</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/dlk_lewisham/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100090444413738&mibextid=LQQJ4d" target="_blank"><i class="fa fa-facebook"></i></a>
+        </div>
+        <hr>
+        <p>Made with <i class="fa fa-heart-o"></i> by Ishimwe_Ricky </p>
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+    
+</body>
+</html>
